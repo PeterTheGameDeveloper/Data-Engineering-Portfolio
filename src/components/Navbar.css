@@ -28,7 +28,9 @@
 }
 
 .highlight {
-  color: var(--accent-cyan);
+  background: linear-gradient(to right, var(--accent-purple), var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar-menu {
