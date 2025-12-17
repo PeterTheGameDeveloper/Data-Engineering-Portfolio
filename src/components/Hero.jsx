@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import profileImage from '../assets/profile.jpg';
 
 const Hero = () => {
     return (
@@ -10,7 +11,7 @@ const Hero = () => {
                     <span className="text-gradient">Data Engineer</span>
                 </h1>
                 <p className="hero-subtitle">
-                    Building scalabe pipelines, warehousing solutions, and turning raw data into actionable insights.
+                    Building scalable pipelines, warehousing solutions, and turning raw data into actionable insights.
                 </p>
                 <div className="hero-buttons">
                     <a href="#projects" className="btn btn-primary">View Work</a>
@@ -18,8 +19,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-visual">
-                {/* Abstract data representation - could be an SVG or CSS animation */}
-                <div className="data-flow-animation"></div>
+                <div className="image-container">
+                    <img src={profileImage} alt="Data Engineer Profile" className="profile-image" />
+                </div>
             </div>
         </section>
     );
