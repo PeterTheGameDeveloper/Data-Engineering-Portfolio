@@ -4,9 +4,9 @@ import './Projects.css';
 const projectsData = [
     {
         id: 1,
-        title: 'Real-time ETF Pipeline',
-        description: 'Built a streaming pipeline using Apache Kafka and Spark Streaming to process ETF data in real-time.',
-        tags: ['Kafka', 'Spark', 'Python', 'AWS S3'],
+        title: 'Strava API Data Pipeline',
+        description: 'Built a pipeline that ingests data via Strava API into MinIO, transforms it via dbt, and loads it into DuckDB for use in a Streamlit dashboard.',
+        tags: ['Python', 'MinIO', 'dbt', 'DuckDB', 'Streamlit', 'Docker'],
         link: '#'
     },
     {
