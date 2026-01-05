@@ -7,7 +7,7 @@ const projectsData = [
         title: 'Strava API Data Pipeline',
         description: 'Built a pipeline that ingests data via Strava API into MinIO, transforms it via dbt, and loads it into DuckDB for use in a Streamlit dashboard.',
         tags: ['Python', 'MinIO', 'dbt', 'DuckDB', 'Streamlit', 'Docker'],
-        link: '#'
+        link: 'https://github.com/PeterTheGameDeveloper/Strava-API-Data-Project'
     },
     {
         id: 2,
