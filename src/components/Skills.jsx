@@ -2,10 +2,10 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-    { category: "Languages", items: ["Python", "SQL", "Scala", "Java"] },
-    { category: "Big Data", items: ["Apache Spark", "Kafka", "Hadoop", "Databricks"] },
-    { category: "Cloud & DevOps", items: ["AWS", "Terraform", "Docker", "Kubernetes"] },
-    { category: "Database", items: ["PostgreSQL", "Snowflake", "MongoDB", "Redis"] }
+    { category: "Languages & Core", items: ["Python", "SQL", "Bash", "Pydantic", "Pytest"] },
+    { category: "Orchestration & Transformation", items: ["dbt (Data Build Tool)", "Apache Airflow", "Dagster", "Apache Spark", "Databricks"] },
+    { category: "Warehouses & Storage", items: ["Snowflake", "DuckDB", "PostgreSQL / PostGIS", "MinIO / AWS S3", "Redis"] },
+    { category: "Cloud & Infrastructure", items: ["AWS (EC2, S3, IAM)", "Docker & Compose", "Terraform", "Git / CI/CD"] }
 ];
 
 const Skills = () => {
