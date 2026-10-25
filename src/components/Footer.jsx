@@ -10,7 +10,7 @@ const Footer = () => {
                     Interested in collaborating or have a data challenge? Reach out!
                 </p>
                 <div className="social-links">
-                    <a href="https://www.linkedin.com/in/peter-kline-16331522b/" className="social-link">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/peter-kline-111a82210/" className="social-link">LinkedIn</a>
                     <a href="https://github.com/peterkline-de" className="social-link">GitHub</a>
                     <a href="mailto:peterkline82@gmail.com" className="social-link">Email</a>
                 </div>
