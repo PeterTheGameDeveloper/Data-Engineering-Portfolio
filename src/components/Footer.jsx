@@ -11,7 +11,7 @@ const Footer = () => {
                 </p>
                 <div className="social-links">
                     <a href="https://www.linkedin.com/in/peter-kline-16331522b/" className="social-link">LinkedIn</a>
-                    <a href="https://github.com/PeterTheGameDeveloper" className="social-link">GitHub</a>
+                    <a href="https://github.com/peterkline-de" className="social-link">GitHub</a>
                     <a href="mailto:peterkline82@gmail.com" className="social-link">Email</a>
                 </div>
                 <div className="footer-copyright">
